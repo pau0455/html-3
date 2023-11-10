@@ -1,0 +1,27 @@
+* {
+    border: 0.1em solid black
+}
+
+.header{
+    display: flex ;
+    font-size: 2em;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+nav li{
+
+    display: inline;
+}
+
+.images {
+
+}
+
+.double {
+
+}
+
+.footer {
+
+}
