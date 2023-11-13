@@ -63,8 +63,8 @@ nav li{
 }
 
 .staff {
-
-    grid-column: 1;
+    display: grid;
+    grid-template-columns: 1fc 1fr;
 }
 
 .staff img {
@@ -76,6 +76,7 @@ nav li{
 }
 
 .text1 {
+
     box-shadow: white 3px 3px 10px;
     margin-top: 0.1em;
     padding: 1em;
