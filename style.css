@@ -1,21 +1,16 @@
 * {
-    border: 0.1em solid black;
     background-color: black;
     text-align: center;
 }
 
 body{
-    padding-left: 15%;
-    padding-right: 15%;
+    background-color: black;
+    text-align: center;
 
 }
 
 .background{
     margin: 0%;
-}
-
-.header{
-
 }
 
 nav ul{
@@ -64,41 +59,82 @@ nav li{
 
 .staff {
     display: grid;
-    grid-template-columns: 1fc 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .staff img {
-    position: absolute;
     border-radius: 50%;
-    left: 54em;
     width: 7em;
     height: 7em;
+    margin-top: 1em;
+    margin-bottom: 0em;
 }
 
-.text1 {
+.text {
 
-    box-shadow: white 3px 3px 10px;
+    box-shadow: white 3px 3px 20px;
     margin-top: 0.1em;
     padding: 1em;
     padding-top:2em ;
-    margin-top: 5em;
-    margin-bottom: 5em;
-    margin-left: 30em;
-    margin-right: 30em;
+    margin-top: -2em;
+    margin-bottom: 4em;
+    margin-left: 8.5em;
+    margin-right: 8.5em;
     text-align: justify;
     color: white;
 }
 
-.text2 {
-
-    box-shadow: white 3px 3px 10px;
-    margin-top: 0.1em;
-    padding: 1em;
-    padding-top: 2em ;
-    margin-top: 10em;
-    margin-bottom: 5em;
-    margin-left: 30em;
-    margin-right: 30em;
-    text-align: justify;
+.popular {
     color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 4em;
+    text-shadow: beige 1px 1px 10px;
+    margin-bottom: 0.3em;
+
+
+}
+
+.slider {
+    scroll-snap-align: center;
+    display: flex;
+    width: 50em;
+    height: 40em;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+  
+.slider img {
+    
+    text-align: center;
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    box-shadow: black 4px 4px 40px;
+}
+
+.background-footer{
+    background-color: #0d1117;
+    box-sizing: border-box;
+    margin: 0px auto;
+    width: 100%;
+    height: 30em;
+    color: #0d1117;
+    padding: 1em;
+    border: 0%;
+    margin-top: 1em;
+}
+
+.footer {
+    background-color: #0d1117;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-text{
+    background-color: #0d1117;
+    color: white;
+    padding: 1em;
 }
