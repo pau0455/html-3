@@ -161,9 +161,6 @@ body{
   .numeros {
     font-family: 'Chela one', sans-serif;
     font-size: 60px;
-    transition: .3s;
-    animation-name: fade;
-    animation-duration: 3s;
   }
   .responsivo1 {
     display: inline-block
@@ -218,6 +215,8 @@ body{
     background-color: #0d1117;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    animation-name: fade;
+    animation-duration: 3s;
 }
 
 .footer-text{
@@ -225,4 +224,5 @@ body{
     color: white;
     padding: 1em;
     text-align: justify;
+    transition: .3s;
 }
